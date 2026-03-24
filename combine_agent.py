@@ -6,7 +6,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
 from langchain_tavily import TavilySearch
 from langchain.tools import tool
-from langgraph.prebuilt import create_react_agent
+from langchain.agents import create_react_agent
 from dotenv import load_dotenv
 import shutil
 import json
