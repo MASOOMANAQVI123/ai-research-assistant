@@ -31,8 +31,8 @@ An advanced, agentic AI assistant that combines **Retrieval-Augmented Generation
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/MASOOMANAQVI123/YOUR_REPO_NAME.git](https://github.com/MASOOMANAQVI123/YOUR_REPO_NAME.git)
-   cd YOUR_REPO_NAME
+   git clone [https://github.com/MASOOMANAQVI123/ai-research-assistant.git](https://github.com/MASOOMANAQVI123/ai-research-assistant.git)
+   cd ai-research-assistant
    pip install -r requirements.txt
    Environment Variables:
 Create a .env file in the root directory and add your API keys:
