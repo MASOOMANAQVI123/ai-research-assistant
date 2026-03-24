@@ -1,4 +1,4 @@
-Streamlit
+streamlit
 pypdf
 langchain
 langchain-community
@@ -8,3 +8,4 @@ langchain-tavily
 langgraph
 python-dotenv
 sentence-transformers
+faiss-cpu
