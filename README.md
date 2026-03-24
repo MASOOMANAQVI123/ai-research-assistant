@@ -44,3 +44,14 @@ TAVILY_API_KEY=your_tavily_key
 Run the App:
 Bash
 streamlit run combine_agent.py
+
+How it Works
+PDF Processing: The app extracts text from uploaded PDFs and splits it into semantic chunks using RecursiveCharacterTextSplitter.
+Vector Indexing: Chunks are converted into embeddings and stored in a local FAISS index for fast similarity search.
+Reasoning Loop: When a query is entered, the ReAct Agent analyzes the intent. If it's about the PDF, it calls search_pdf. If it's about current events, it calls tavily_search.
+Response Generation: The LLM synthesizes the information from tools and provides a grounded, accurate response with source links.
+
+📄 License
+Distributed under the MIT License. See LICENSE for more information.
+
+Developed by [MASOOMA_naqvi]
