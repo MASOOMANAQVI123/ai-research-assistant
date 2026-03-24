@@ -35,15 +35,10 @@ An advanced, agentic AI assistant that combines **Retrieval-Augmented Generation
    cd ai-research-assistant
    pip install -r requirements.txt
    Environment Variables:
-Create a .env file in the root directory and add your API keys:
-
-Code snippet
-GROQ_API_KEY=your_groq_key
-TAVILY_API_KEY=your_tavily_key
-
-Run the App:
-Bash
-streamlit run combine_agent.py
+   GROQ_API_KEY=your_groq_api_key_here
+   TAVILY_API_KEY=your_tavily_api_key_here
+   HUGGINGFACEHUB_API_TOKEN=your_huggingface_token_here
+   streamlit run combine_agent.py
 
 
 📄 License
