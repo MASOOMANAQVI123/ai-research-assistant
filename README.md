@@ -2,7 +2,7 @@
 AI Research Assistant using LangGraph, RAG (FAISS), and Web Search.
 # 🤖 AI Research Assistant (LangGraph + RAG)
 
-An advanced, agentic AI assistant that combines **Retrieval-Augmented Generation (RAG)** with real-time **Web Search** and autonomous tool-use. Built for high-speed research and document intelligence.
+An advanced, agentic AI assistant that combines **Retrieval-Augmented Generation (RAG)** with real-time **Web Search** and autonomous tool-use. Built for high-speed research and document intelligence.FOR live demo, click the link https://ai-research-assistant-v6lyktajfg8zjkj7nutyjm.streamlit.app/
 
 ---
 
